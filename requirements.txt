@@ -1,0 +1,6 @@
+streamlit
+mysql-connector-pytho
+json
+pandas
+datetime
+plotly

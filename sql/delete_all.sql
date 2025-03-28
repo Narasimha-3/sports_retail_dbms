@@ -1,0 +1,13 @@
+USE sports_retail; 
+SET FOREIGN_KEY_CHECKS = 0;
+
+TRUNCATE TABLE reviews;
+TRUNCATE TABLE order_items;
+TRUNCATE TABLE orders;
+TRUNCATE TABLE discounts;
+TRUNCATE TABLE products;
+TRUNCATE TABLE categories;
+TRUNCATE TABLE suppliers;
+TRUNCATE TABLE customers;
+
+SET FOREIGN_KEY_CHECKS = 1;
